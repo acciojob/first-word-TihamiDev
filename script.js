@@ -11,7 +11,7 @@
 // 	return newS
 // }
 function firstWord(s) {
-	  return s.trim()split(" ")[0];
+	  return s.trim().split(" ")[0];
 }
 // Do not change the code below
 
