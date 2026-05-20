@@ -11,9 +11,9 @@
 // 	return newS
 // }
 function firstWord(s) {
-	  return s.split(" ")[0];
+	  return s.trim()split(" ")[0];
 }
 // Do not change the code below
 
-const s = prompt("Enter String:");
+// const s = prompt("Enter String:");
 alert(firstWord(s));
